@@ -1,9 +1,11 @@
 public class Objective3Lab3 {
   public static void main(String[] args) {
-    int num1 = 1 + (int)(Math.random() * 6);
-    int num2 = 1 + (int)(Math.random() * 6);
-    int num3 = 1 + (int)(Math.random() * 6);
-    int sum = num1 + num2 + num3;
-    System.out.println(num1 + " + " + num2 + " + " +  num3 + " = " + num1 + num2 + num3);
+
+    int first = 1 + (int)(Math.random() * 6);
+    int second = 1 + (int)(Math.random() * 6);
+    int third = 1 + (int)(Math.random() * 6);
+    int sum = first + second + third;
+
+    System.out.println(first + " + " + second + " + " + third + " = " + sum);
   }
 }
